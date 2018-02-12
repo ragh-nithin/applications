@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Tasks</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="header">	
+				<input type="text" id="task" placeholder="Enter your tasks here..">
+				<button id="add">Add</button>
+	</header>
+	<div id="container">
+
+		<!-- sidebar div -->
+				<div id="sidebar">
+					<h3 id="custom">Custom</h3>
+					<ul>
+						<li>
+							Background color
+							<button id="bcolor"> <img src="images/refresh.png"> </button>
+						</li>	
+						<li>
+							Priority
+							<button id="compFirst"><img src="images/refresh.png"> </button>
+						</li>	
+	
+					</ul>
+				</div>
+
+
+
+				<!--- Main bar div -->
+				<div id="shiftOne">
+				<div id="mainbar">
+					<h3 id="added">Added Tasks</h3>
+					<ul id="mainBarList"><ul>
+				</div>
+				</div>
+
+				<div id="pos">
+				</div>
+
+				<!--- completebar -->
+				<div id="shiftTwo">
+				<div id="completebar">
+					<h3 id="completedd">Completed Tasks</h3>
+					<ul id="completeList"></ul>
+				</div>
+				</div>
+	</div>
+<script type="text/javascript" src="js/index.js"></script>
+
+</script>
+</body>
+</html>

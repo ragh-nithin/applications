@@ -1,0 +1,245 @@
+body{
+	margin: 0;
+	padding: 100px 0 0 0; 
+	background-color: #83929f;
+}
+
+/* ------------------------------ HEADER FIELDS  ---------------------------------- */
+
+header{
+	width: 100%;
+	background-color: #4e6172;
+	height: 80px;
+	border: 0;
+	padding: 15px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 1px 2px 2px rgba(44,62,80,.5);
+}
+
+header input{
+	color: white;
+	width: 100%;
+	font-style: sans-serif;
+	font-weight: 600;
+	height: 50px;
+	border: 0;
+	border-radius: 7px;
+	box-shadow: none;
+	outline: none;
+	text-indent: 40px;
+	padding: 0 60px 0 0;
+	background-color: #54B3B6;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+header input::placeholder {
+	color: white;
+	font-style: sans-serif;
+	font-weight: 800;
+
+}
+
+header #date {
+		color: #fff;
+		background-color:  #83929f;
+		font-style: sans-serif;
+		font-weight: 600;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		height: 50px;
+		width: 50px;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		border:0px;
+		box-shadow: none;
+		outline: none;
+}
+
+header #add {
+		color: #fff;
+		background-color:  #83929f;
+		position: absolute;
+		font-style: sans-serif;
+		font-weight: 600;
+		top: 15px;
+		right: 15px;
+		height: 50px;
+		width: 50px;
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px;
+		border:0px;
+		box-shadow: none;
+		outline: none;
+}
+
+
+/* ------------------------------ SIDEBAR FIELDS  ---------------------------------- */
+
+
+#container #sidebar{
+	padding: 20px;
+	width: 300px;
+	float: right;
+	margin: 0 20px 0 0;
+	border: 2px solid #4e6172;
+	box-shadow: 1px 1px 1px #4e6172;
+	border-radius: 15px;
+	position: relative;
+}
+
+#container #sidebar h3{
+	height: 40px;
+	width: 296px;
+	left: 0;
+	text-align: center;
+	line-height: 38px;
+	position: absolute;
+	background-color:#4e6172;
+	box-shadow: none;
+	outline: none; 
+}
+
+#container #sidebar ul{
+	margin: 60px 0 0 0;
+}
+
+#container #sidebar ul li{
+	background-color: #54B3B6;
+	margin: 10px 0 10px 0;
+	width: 100%;
+	border-radius: 5px;
+	height: 30px;
+	padding: 5px;
+	line-height: 24px;
+	text-indent: 5px;
+	border:0;
+	box-shadow: none;
+	outline: none;
+	color: #fff;
+font-style: sans-serif;
+	font-weight: 500;
+}
+
+#container #sidebar button{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 30px;
+	width: 30px;
+	float: right;
+	border:0;	
+	background-color: #54B3B6;
+	margin: -5px -5px -5px 0;
+	box-shadow: none;
+	outline: none;
+
+}
+
+
+#container #sidebar button img{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 30px;
+	width: 30px;
+	float: right;
+	border:0;	
+}
+
+/* ------------------------------ MAIN BAR FIELDS and COMPLETE BAR FIELDS ---------------------------------- */
+#pos{
+	height: 1px;
+	border:2px;
+	background-color:black;
+	margin-right: 360px;
+	margin-left: 20px;
+}
+
+
+#mainbar, #completebar{
+	margin: 10px 350px 20px 10px;
+	border: 0;
+	position: relative;
+
+}
+#mainbar, #completebar h3{
+	text-align: center;
+	border: 0;
+}
+
+#completebar{
+	padding-top: 20px;
+}
+
+#mainbar ul li , #completebar ul li
+{
+	text-align: left;
+	color: #fff;
+	padding: 0;
+	margin: 10px 10px 10px 10px;
+	height: 40px;
+	font-style: sans-serif;
+	font-weight: 500;
+	background-color: #54B3B6;
+	border: 2px solid  #4e6172;
+	text-indent: 50px;
+	box-shadow: none;
+	border-radius: 5px;
+	line-height: 40px;
+	outline: none;
+	position: relative;
+}
+
+#mainbar ul li #complete, #completebar ul li #complete{
+	height: 36px;
+	width: 36px;
+	float: right;
+	border: 0;
+	outline: none;
+	box-shadow: none;
+	font-style: sans-serif;
+	color: white;
+	position: relative;
+	font-weight: 600;
+	background-color: #54B3B6;
+}
+
+#mainbar ul li #delete, #completebar ul li #delete{
+	height: 36px;
+	width: 36px;
+	float: right;
+	border: 0;
+	margin: 0 0 0 10px;
+	outline: none;
+	box-shadow: none;
+	font-style: sans-serif;
+	position: relative;
+	font-weight: 600;
+	background-color: #54B3B6;
+	color: white;
+}
+
+#mainbar ul li button:last-of-type:before, #completebar ul li button:last-of-type:before{
+	content: '';
+	height: 30px;
+	width: 1px;
+	position: absolute;
+	top: 3px;
+	left: 36px;
+	background: #4e6172;
+}
+
+#mainbar ul li button img , #completebar ul li button img
+{
+	height: 36px;
+	width: 36px;
+	border: 0;
+	outline: none;
+}
+
+
+
